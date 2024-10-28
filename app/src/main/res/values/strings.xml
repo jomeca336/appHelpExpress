@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">helpExpress</string>
+
+    <string-array name="opciones_spinner">
+        <item>Selecciona una opción</item>
+        <item>Albañil</item>
+        <item>Carpintero</item>
+        <item>Mecánico</item>
+        <item>Limpieza</item>
+        <item>Electricista</item>
+        <item>Plomero</item>
+        <item>Jardineria</item>
+        <item>Pintura</item>
+        <item>Otros</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="selectedTabColor">#FF4081</color> <!-- Color cuando la pestaña está seleccionada -->
+    <color name="defaultTabColor">#E0E0E0</color> <!-- Color cuando la pestaña no está seleccionada -->
+    <color name="white">#FFFFFF</color> <!-- Color del texto cuando la pestaña está seleccionada -->
+    <color name="black">#000000</color> <!-- Color del texto cuando la pestaña no está seleccionada -->
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#D9D0FE"
+    >
+
+    <!-- Título para la sección de Clientes (opcional) -->
+    <TextView
+        android:id="@+id/title_clientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trabajadores"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#6A6969"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView para mostrar la lista de clientes -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_clientes"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/item_cliente"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

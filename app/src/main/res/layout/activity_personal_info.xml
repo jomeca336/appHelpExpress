@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile_opt.PersonalInfoActivity"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/goBackImageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/go_back_ic"
+            android:layout_marginStart="10dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="start"
+            />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/user_pic"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre: "
+                android:textSize="22dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/nameUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre de ejemplo "
+                android:textSize="22dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/editNameImageView"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/edit"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripcion: "
+                android:textSize="22dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/descriptionUser"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Esta es una descripcion pa ir probando"
+                android:textSize="18dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/editDescriptionImageView"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/edit"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad: "
+                android:textSize="22dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/ageUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="57 "
+                android:textSize="22dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/editAgeImageView"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/edit"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion: "
+                android:textSize="22dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/addresUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La esmeralda "
+                android:textSize="22dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/editAdresImageView"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/edit"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono: "
+                android:textSize="22dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/phoneUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ 333 333 3589 "
+                android:textSize="22dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/editPhoneImageView"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/edit"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

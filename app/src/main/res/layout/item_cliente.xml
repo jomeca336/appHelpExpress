@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/card_background"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:gravity="center_vertical">
+
+    <!-- Imagen de perfil del cliente -->
+    <ImageView
+        android:id="@+id/clientProfileImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_pic"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Contenedor de la información -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <!-- Nombre del cliente -->
+        <TextView
+            android:id="@+id/clienteName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daniel Gonzales"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+        <!-- Teléfono del cliente -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/id_phone"
+                android:tint="#837D7D"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/clientePhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3218554267"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <!-- Correo del cliente -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_mail"
+                android:tint="#6A6969"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/clienteEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daniel20G@gmail.com"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <!-- Botón con estado -->
+        <Button
+            android:id="@+id/clienteStatusButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sin puntuar"
+            android:textColor="#CE1717"
+            android:backgroundTint="@android:color/transparent"
+            android:drawableTint="#E00A0A"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/button_red_outline"/>
+    </LinearLayout>
+
+    <!-- Ícono de chat -->
+    <ImageView
+        android:id="@+id/chatIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/message_ic"
+        android:tint="#7D36A9"
+        android:layout_gravity="end"/>
+
+
+</LinearLayout>

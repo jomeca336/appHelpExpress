@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0" /> <!-- Color de la sombra -->
+            <corners android:radius="16dp" /> <!-- Bordes redondeados -->
+        </shape>
+    </item>
+
+    <!-- Fondo blanco de la tarjeta -->
+    <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" /> <!-- Fondo blanco -->
+            <corners android:radius="16dp" /> <!-- Bordes redondeados -->
+        </shape>
+    </item>
+
+</layer-list>
